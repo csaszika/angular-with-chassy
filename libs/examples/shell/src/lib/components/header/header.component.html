@@ -1,0 +1,11 @@
+<header class="header">
+  <nav>
+    <ul class="header-links">
+      <li class="header-link" *ngFor="let link of links(); trackBy: trackLink">
+        <a routerLinkActive="active" [routerLink]="link.route">
+          {{ link.label }}
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>

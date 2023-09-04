@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  position: sticky;
+  width: 100%;
+  min-height: 4.5rem;
+  padding: 0.3rem;
+  background-color: #1f24d7;
+
+  .header-links {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .header-link {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      margin-inline-start: 1rem;
+      padding-inline: 1rem;
+      background-color: #ffffff;
+      border-radius: 1rem;
+
+      a {
+        font-family: inherit;
+        font-size: 16px;
+        font-weight: 600;
+        color: #1f6fd7;
+        text-decoration: none;
+      }
+
+      a.active {
+        color: #6e02e8;
+      }
+    }
+  }
+}

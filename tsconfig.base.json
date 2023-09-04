@@ -1,0 +1,30 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@exa/examples/ckody": ["libs/examples/ckody/src/index.ts"],
+      "@exa/examples/david": ["libs/examples/david/src/index.ts"],
+      "@exa/examples/kalamboo": ["libs/examples/kalamboo/src/index.ts"],
+      "@exa/examples/kreatin": ["libs/examples/kreatin/src/index.ts"],
+      "@exa/examples/kyton": ["libs/examples/kyton/src/index.ts"],
+      "@exa/examples/lacii": ["libs/examples/lacii/src/index.ts"],
+      "@exa/examples/lajos": ["libs/examples/lajos/src/index.ts"],
+      "@exa/examples/peti": ["libs/examples/peti/src/index.ts"],
+      "@exa/examples/shell": ["libs/examples/shell/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
